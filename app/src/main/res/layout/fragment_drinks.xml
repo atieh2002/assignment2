@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DrinksFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/OrangeJuice" />
+
+    <TextView
+        android:id="@+id/Water"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="148dp"
+        android:text="Water"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Soda"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:text="Soda"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Water" />
+
+    <TextView
+        android:id="@+id/Lemonade"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:text="Lemonade"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Soda" />
+
+    <TextView
+        android:id="@+id/OrangeJuice"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:text="OrangeJuice"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Lemonade" />
+
+    <TextView
+        android:id="@+id/price1"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="144dp"
+        android:text="$0.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.211"
+        app:layout_constraintStart_toEndOf="@+id/Water"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/price2"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="28dp"
+        android:text="$1.00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Soda"
+        app:layout_constraintTop_toBottomOf="@+id/price1" />
+
+    <TextView
+        android:id="@+id/price3"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="28dp"
+        android:text="$2.50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Lemonade"
+        app:layout_constraintTop_toBottomOf="@+id/price2" />
+
+    <TextView
+        android:id="@+id/price4"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="24dp"
+        android:text="$3.00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/OrangeJuice"
+        app:layout_constraintTop_toBottomOf="@+id/price3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
